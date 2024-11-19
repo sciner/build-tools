@@ -1,7 +1,7 @@
 {
     "type": "module",
     "name": "@sciner/ts-build",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Typescript helpers for Tesera project",
     "keywords": [
         "typescript",
@@ -19,14 +19,9 @@
         "ts-import",
         "transform-paths"
     ],
-    "optionalDependencies": {
-        "utf-8-validate": "^5.0.7"
-    },
-    "devDependencies": {
-        "copyfiles": "=2.4.1",
+    "dependencies": {
         "ts-patch": "=3.0.0-beta3",
         "ts-node": "=10.9.2",
-        "typescript": "^5.4.3",
-        "@types/howler": "^2.2.12"
+        "typescript": "^5.4.3"
     }
 }
