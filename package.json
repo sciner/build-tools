@@ -1,14 +1,15 @@
 {
     "type": "module",
     "name": "@sciner/ts-build",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "description": "Typescript helpers for Tesera project",
     "keywords": [
         "typescript",
         "transpile"
     ],
     "exports": {
-        ".": "./node-import/index.js",
+        ".": "./ts-import/node.js",
+        "./api": "./ts-import/index.js",
         "./paths": "./transform-paths/index.js"
     },
     "repository": "https://github.com/sciner/ts-build.git",
@@ -21,8 +22,9 @@
     ],
     "dependencies": {
         "@swc/core": "=1.4.11",
+        "tsconfig-paths": "=3.14.2",
         "ts-patch": "=3.0.0-beta3",
         "ts-node": "=10.9.2",
-        "typescript": "^5.4.3"
+        "typescript": "=5.4.3"
     }
 }
