@@ -1,7 +1,7 @@
 {
     "type": "module",
     "name": "@sciner/ts-build",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Typescript helpers for Tesera project",
     "keywords": [
         "typescript",
@@ -16,7 +16,7 @@
         "sciner:registry": "https://npm.pkg.github.com"
     },
     "files": [
-        "node-import",
+        "ts-import",
         "transform-paths"
     ],
     "optionalDependencies": {
