@@ -1,7 +1,7 @@
 {
     "type": "module",
     "name": "@sciner/ts-build",
-    "version": "1.0.6",
+    "version": "1.0.7",
     "description": "Typescript helpers for Tesera project",
     "keywords": [
         "typescript",
@@ -22,7 +22,6 @@
     ],
     "dependencies": {
         "@types/node": "^20.17.0",
-        "@swc/core": "=1.4.11",
         "tsconfig-paths": "=3.14.2",
         "ts-patch": "=3.0.0-beta3",
         "ts-node": "=10.9.2",
