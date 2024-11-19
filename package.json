@@ -1,7 +1,7 @@
 {
     "type": "module",
     "name": "@sciner/ts-build",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "Typescript helpers for Tesera project",
     "keywords": [
         "typescript",

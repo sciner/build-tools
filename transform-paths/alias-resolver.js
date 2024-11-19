@@ -51,15 +51,16 @@ class AliasResolver {
                 relativePath = "." + path.sep + relativePath;
             }
 
+            // TODO: uncomment it and use when all path problems will be resolved
             // this is Tesera hack to get correct module names for tsx
-            if (!relativePath.endsWith('.js')) {
-                if (relativePath.indexOf('@sciner') >= 0) {
-                    relativePath = relativePath + '\\index.mjs'
-                } else {
-                    // for pako
-                    relativePath = relativePath + '\\index.js'
-                }
-            }
+            // if (!relativePath.endsWith('.js')) {
+            //     if (relativePath.indexOf('@sciner') >= 0) {
+            //         relativePath = relativePath + '\\index.mjs'
+            //     } else {
+            //         // for pako
+            //         relativePath = relativePath + '\\index.js'
+            //     }
+            // }
 
             // console.log(`REPLACED: ${relativePath}, mapping = ${mapping}`)
             return relativePath = relativePath.replace(REGEXP_ALL_BACKSLASH, "/")
